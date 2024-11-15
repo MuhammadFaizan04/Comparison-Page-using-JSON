@@ -1,0 +1,32 @@
+{
+    "Bonanza": [
+        {
+            "id": 5,
+            "name": "CROWN",
+            "description": "As for the shelf life of Eau de Parfum (EDP), it generally lasts longer than lighter concentrations such as Eau de Toilette (EDT) or Cologne. However, the shelf life can vary depending on several factors, including the specific ingredients used, the quality of the perfume, and how it's stored.",
+            "price": "PKR. 4,224",
+            "image": "images/img5.jpg"
+        },
+        {
+            "id": 6,
+            "name": "XTREME MAN",
+            "description": "This fragrance is the true depiction of a beautiful, blossoming rose with delicious & elegant shades of blackberry. Alongside, the aroma of Voluptuous violet envelops it with a powdery aura. The heart is dominated by magnificent & robust Taif rose, surrounded by the charming flowers of Jasmine & mimosa. This sparkling bouquet is further supported by the warmth & strength of patchouli, sandalwood & guaiac wood at the base.",
+            "price": "PKR. 4,482",
+            "image": "images/img6.jpg"
+        },
+        {
+            "id": 7,
+            "name": "ECLIPSE",
+            "description": "Bonanza Fragrances evokes a refreshing dive into a cool breezy aroma, with enchanting Fougere - Citrusy Fruity notes. Introducing Deep Blue, a fragrance that ignites your confidence and sophistication with charming Fougere notes, when perfectly blended with Citrusy-Fruity notes embodies your adventurous journey with rich woody notes that exude breezy freshness and vitality all day long.",
+            "price": "PKR. 3,984",
+            "image": "images/img7.jpg"
+        },
+        {
+            "id": 8,
+            "name": "WILD",
+            "description": "As for the shelf life of Eau de Parfum (EDP), it generally lasts longer than lighter concentrations such as Eau de Toilette (EDT) or Cologne. However, the shelf life can vary depending on several factors, including the specific ingredients used, the quality of the perfume, and how it's stored.",
+            "price": "PKR. 2,988",
+            "image": "images/img8.jpg"
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison Page</title>
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center pt-5">PERFUMES COMPARISON</h1>
+        <div class="row p-5">
+
+           
+            <div class="col-md-6 p-5 text-center">
+                <label for="">J.</label>
+            <select id="dropdown1">
+            </select>
+            </div>
+
+
+            <div class="col-md-6 p-5 text-center">
+                <label for="">Bonanza</label>
+            <select id="dropdown2">
+            </select>
+            </div>
+            
+        </div>
+
+    </div>
+    <script src="jquery/jquery-3.7.1.js"></script>
+    <script src="bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+    <script>
+       
+        $.ajax({
+            url: "product1.json",
+            success: function (response) {
+                // console.log(response);
+                $('#dropdown1').append('<option>Select a Product</option>');
+                for (const key in response) {
+                // console.log(response[key]);
+                
+                    response[key].forEach(element => {
+                        // console.log(element.name);
+                       
+                        
+                        $('#dropdown1').append('<option>' + element.name + '</option>');
+                        
+                    });
+                
+               
+               }
+            
+        
+               
+
+
+            }
+
+        })
+
+
+
+
+
+
+        $.ajax({
+            url: "product2.json",
+            success: function (response) {
+                // console.log(response);
+                $('#dropdown2').append('<option>Select a Product</option>');
+                for (const key in response) {
+                // console.log(response[key]);
+                
+                    response[key].forEach(element => {
+                        // console.log(element.name);
+                       
+                        
+                        $('#dropdown2').append('<option>' + element.name + '</option>');
+                        
+                    });
+                
+               
+               }
+            
+        
+               
+
+
+            }
+
+        })
+
+
+
+
+
+        
+    </script>
+
+</body>
+
+</html>
